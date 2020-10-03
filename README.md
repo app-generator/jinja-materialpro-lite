@@ -1,27 +1,26 @@
-# [Jinja Template](https://github.com/app-generator/jinja-template)
+# [Jinja Material Lite](https://appseed.us/jinja-template/jinja-template-material-lite)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **Neumorphism UI** (Free Version) by **Themesberg**
+- UI Kit: **MaterialPro Bootstrap Lite** (Free Version) by **WrapPixel**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
-- [LIVE Demo](https://theme-jinja2.appseed.us/) - starter in action
-- [Jinja Template](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
+- [LIVE Demo](https://jinja-template-material-lite.appseed.us/) - Starter in action
+- [Jinja Material Lite](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
 
 <br />
 
-## UI Kit - [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap)
+## UI Kit - MaterialPro Bootstrap Lite
 
-*Vendor Notes* - Start developing neumorphism (aka. neomorphism) inspired layouts, web apps and pages with this free UI Kit. It features over 200 individual components and 5 example pages. Neumorphism UI makes use of the original neumorphism design specs.
-All components are perfectly in compliance with the neumorphism design trend making use of the specific shadow and coloring attributes. Neumorphism UI also comes with the shadow inset style add-on. Only some neumorphic components that are included are timelines, profile cards, pricing cards, call to action sections and many more.
+WrapPixel's MaterialPro Bootstrap Lite is one of the best Bootstrap templates for admin dashboards and control admin panels. This powerful and competent Bootstrap 4 admin template is based on HTML and is built with the CSS framework. Inspired by Google Material design principles and integrated with the essential Bootstrap components and UI elements, the all-new and comprehensive MaterialPro Bootstrap Lite from WrapPixel has a lot to offer to you.
 
 <br />
 
-![Jinja Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2/master/media/theme-jinja2-screen.png)
+![Jinja Material Lite - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-material-lite/master/media/jinja-template-material-lite-screen.png)
 
 <br />
 
@@ -29,8 +28,8 @@ All components are perfectly in compliance with the neumorphism design trend mak
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-template-material-lite.git
+$ cd jinja-template-material-lite
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -119,8 +118,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-template-material-lite.git
+$ cd jinja-template-material-lite
 ```
 
 > Start the app in Docker
@@ -145,8 +144,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-template-material-lite.git
+$ cd jinja-template-material-lite
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -217,4 +216,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template](https://theme-jinja2.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Material Lite](https://appseed.us/jinja-template/jinja-template-material-lite) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).

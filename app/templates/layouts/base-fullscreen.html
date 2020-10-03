@@ -1,83 +1,45 @@
-<!--
-
-=========================================================
-* Neumorphism UI - v1.0.0
-=========================================================
-
-* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
-* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
-
-* Coded by https://themesberg.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+          content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, Material Pro lite admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, Material Pro lite design, Material Pro lite dashboard bootstrap 4 dashboard template">
+    <meta name="description"
+          content="Material Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
 
-    <!-- Primary Meta Tags -->
     <title>
-        Jinja Template - {% block title %}{% endblock %} | AppSeed
+        Jinja Material Lite - {% block title %}{% endblock %} | AppSeed
     </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Neumorphism UI - Sign up">
-    <meta name="author" content="Themesberg">
-
-    <!--  Social tags -->
-    <meta name="description" 
-          content="Simple Flask starter project coded on top of Neumorphism UI Kit - MIT License, coded by AppSeed.">
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="product">
-    <meta name="twitter:site" content="@themesberg">
-    <meta name="twitter:title" content="Neumorphism UI by Themesberg">
-    <meta name="twitter:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
-    <meta name="twitter:creator" content="@themesberg">
-    <meta name="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
-
-    <!-- Open Graph data -->
-    <meta property="fb:app_id" content="214738555737136">
-    <meta property="og:title" content="Neumorphism UI by Themesberg" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
-    <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"/>
-    <meta property="og:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
-    <meta property="og:site_name" content="Themesberg" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Fontawesome -->
-    <link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-    <!-- Pixel CSS -->
-    <link type="text/css" href="/static/assets/css/neumorphism.css" rel="stylesheet">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/images/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/static/assets/css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="/static/assets/css/colors/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
 
     <!-- Specific Page CSS goes HERE  -->
     {% block stylesheets %}{% endblock stylesheets %}
 
 </head>
 
-<body>
+<body class="fix-header card-no-border">
 
-    <main>
-
-        {% block content %}{% endblock content %}
-
-    </main>
-
+    {% block content %}{% endblock content %}
+    
     {% include 'includes/scripts.html' %}
 
     <!-- Specific Page JS goes HERE  -->
