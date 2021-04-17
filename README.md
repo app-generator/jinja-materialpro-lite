@@ -1,6 +1,6 @@
 # [Jinja Material Lite](https://appseed.us/jinja-template/jinja-template-material-lite)
 
-> Template Theme provided by [AppSeed](https://appseed.us) - Features:
+WrapPixel's MaterialPro Lite is one of the best Bootstrap templates for admin dashboards and control admin panels. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics - Features:
 
 - UI Kit: **MaterialPro Bootstrap Lite** (Free Version) by **WrapPixel**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
@@ -9,8 +9,9 @@
 
 > Links
 
+- Jinja Material Lite](https://appseed.us/jinja-template/jinja-template-material-lite)
 - [LIVE Demo](https://jinja-template-material-lite.appseed.us/) - Starter in action
-- [Jinja Material Lite](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
+
 
 <br />
 
