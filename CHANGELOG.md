@@ -4,6 +4,7 @@
 ### Improvements
 
 - Bump UI Version: [v1.0.2](https://github.com/app-generator/wp-materialpro-lite)
+- Improved Codebase
 
 ## [1.0.0] 2020-10-03
 ### Initial Release
