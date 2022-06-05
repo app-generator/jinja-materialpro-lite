@@ -9,8 +9,8 @@ WrapPixel's MaterialPro Lite is one of the best Bootstrap templates for admin da
 
 > Links
 
-- Jinja Material Lite](https://appseed.us/product/material-wpx/jinja/)
-- [LIVE Demo](https://jinja-template-material-lite.appseed.us/) - Starter in action
+- 👉 [Flask Material Lite](https://appseed.us/product/material-wpx/jinja/) - product page
+- 👉 [Flask Material Lite](https://flask-materialpro-lite.appseed-srv1.com) - LIVE deployment
 
 
 <br />
